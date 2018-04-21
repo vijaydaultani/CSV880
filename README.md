@@ -9,7 +9,7 @@ During my masters course I completed the below two assignments as a course proje
 
 	The program will read a matrix `A` of size `m x n` comprising of floating point numbers from inpFile. The program should run on `p x q` ranks logically arranged as a 2-D grid. The matrix should be distributed on the ranks in a block-cyclic distribution with block size `s x s`. The program will perform `l` iterations: 
 	
-	![equation][Equation_embedding]
+	<img src="http://www.sciweavers.org/tex2img.php?eq=A%5Bi%5D%5Bj%5D%20%3D%20%20%5Cfrac%7Ba%20.%20A%5Bi-1%5D%5Bj%5D%20%2B%20b%20.%20A%5Bi%5D%5Bj-1%5D%20%2B%20c%20.%20A%5Bi%5D%5Bj%5D%20%2B%20d%20.%20A%5Bi%5D%5Bj%2B1%5D%20%2B%20e%20.%20A%5Bi%2B1%5D%5Bj%5D%20%7D%7Ba%20%2B%20b%20%2B%20c%20%2B%20d%20%2B%20e%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="A[i][j] =  \frac{a . A[i-1][j] + b . A[i][j-1] + c . A[i][j] + d . A[i][j+1] + e . A[i+1][j] }{a + b + c + d + e} " width="640" height="44" />
 
 	- Details: [here][Assignment1_doc]
 
