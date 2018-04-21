@@ -8,9 +8,9 @@ During my masters course I completed the below two assignments as a course proje
 - **Goal** is to write an MPI program to perform the template (averaging) based computations on a matrix `A` specified as follows:
 
 	The program will read a matrix `A` of size `m x n` comprising of floating point numbers from inpFile. The program should run on `p x q` ranks logically arranged as a 2-D grid. The matrix should be distributed on the ranks in a block-cyclic distribution with block size `s x s`. The program will perform `l` iterations: 
-	<p align="center">
+
 	![equation][Equation_embedding]
-	</p>
+
 
 - **Details**: [here][Assignment1_doc]
 
